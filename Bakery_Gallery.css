@@ -1,0 +1,39 @@
+@import url(../exer_css/Bakery.css);
+@import url(../exer_css/Bakery_Product.css);
+
+
+.flex_container1, .flex_container2{
+    margin: 3% 4%;
+}
+
+.main_box_flex:hover .flex_container1:not(:hover),
+.main_box_flex:hover .flex_container2:not(:hover) {
+    filter: blur(10px);
+}
+
+#product_image1>a>img{
+    width: 100%;
+    height: 200px;
+    box-shadow: 6px 10px 10px rgb(0, 0, 0);
+    transition: 0.5s ease;
+}
+
+#product_image2>a>img{
+    width: 105%;
+    height: 200px;
+    box-shadow: 6px 10px 10px rgb(0, 0, 0);
+    transition: 0.5s ease;
+}
+
+#product_image3>a>img{
+    width: 100%;
+    height: 200px;
+    padding-left: 5%;
+    box-shadow: 6px 10px 10px rgb(0, 0, 0);
+    transition: 0.5s ease;
+}
+
+#product_image1>a>img:hover ,#product_image2>a>img:hover, #product_image3>a>img:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.703);
+    transform: scale(1.1);
+}

@@ -1,0 +1,104 @@
+@import url(../exer_css/Bakery.css);
+@import url(../exer_css/Bakery_Product.css);
+@import url(../exer_css/Bakery_Gallery.css);
+
+.inner_box_letter{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: rgb(207, 138, 82);
+    text-align: center;
+    padding: 5% 0%;
+}
+
+form{
+    font-family: 'Rubik', sans-serif;
+    padding-left: 18%;
+}
+
+label{
+    text-shadow: 6px 7px 2.5px rgba(11, 11, 11, 0.801);
+    color: rgb(207, 138, 82);
+}
+
+.Name_div, .Email_div, .Msg_div{
+    margin-bottom: 3%;
+}
+
+
+#Txtname{
+    margin-left: 23%;
+    padding-left: 1.3%;
+    width: 48%;
+    height: 28px;
+    border-radius: 12px;
+    box-shadow: 4px 6px 10px rgba(11, 11, 11, 0.801);
+    color: rgb(90, 66, 46);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+#Txtemail{
+    margin-left: 14%;
+    padding-left: 1.3%;
+    width: 48%;
+    height: 28px;
+    border-radius: 12px;
+    box-shadow: 4px 6px 10px rgba(11, 11, 11, 0.801);
+    color: rgb(90, 66, 46);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.Msg_div>span{
+    vertical-align: top;
+}
+
+#msg{
+    padding-top: 5%;
+}
+
+#Txtmsg{
+    color: rgb(90, 66, 46);
+    margin-left: 19.6%;
+    padding: 1%;
+    width: 48%;
+    height: 150px;
+    border-radius: 12px;
+    box-shadow: 4px 6px 10px rgba(11, 11, 11, 0.801);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+#Txtname:is(:hover, :focus) ,
+#Txtemail:is(:hover, :focus),
+#Txtmsg:is(:hover, :focus) {
+    border: 3px solid whitesmoke;
+    background-color: rgb(90, 66, 46);
+    color: whitesmoke;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.703);
+    transform: scale(1.2);
+}
+
+button{
+    border: none;
+    margin-left: 63%;
+    width: 15%;
+    height: 25px;
+    color: rgb(90, 66, 46);
+    border-radius: 13px;
+    box-shadow: 4px 6px 10px rgba(11, 11, 11, 0.801);
+    transition: 200ms ease-in;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(137, 101, 72);
+    color: whitesmoke;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.703);
+    transform: scale(1.3);
+}
+
+button:active{
+    background-color:black;
+    color: whitesmoke;
+}

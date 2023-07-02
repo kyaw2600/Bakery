@@ -1,0 +1,40 @@
+@import url(../exer_css/Bakery.css);
+
+
+.main_about_container{
+    background-color: rgba(96, 60, 27, 0.736);
+    width: 80%;
+    margin-left: 10%;
+    padding: 1% 0%;
+    border-radius: 7px;
+}
+
+.inner_about_letter{
+    background-color: rgb(168, 117, 75);
+    text-align: center;
+    margin: 0% 5%;
+    height: 30px;
+}
+
+.inner_about_letter>p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-top: 0.5%;
+}
+
+.shop_img{
+    margin: 2%;
+    text-align: center;
+}
+
+.shop_img>img{
+    width: 75%;
+    filter: opacity(80%);
+}
+
+.sec_about_letter>p{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
